@@ -29,7 +29,7 @@ Este proyecto implementa un pipeline ETL de principio a fin para datos de cripto
 1. **Extracción** desde la API de CoinGecko, con tres endpoints:
    - `coins/list` (datos estáticos)
    - `coins/markets` (datos diarios, extracción incremental)
-   - `{coin_id}/market_chart` (datos históricos de los últimos 30 días) :contentReference[oaicite:0]{index=0}
+   - `{coin_id}/market_chart` (datos históricos de los últimos 30 días)
 2. **Transformación** y limpieza de datos en distintas capas del Delta Lake.
 3. **Carga** en Delta Lake usando particionamiento y lógica de _merge_ para evitar duplicados y mantener la consistencia.
 
@@ -131,6 +131,8 @@ Cargar datos limpios desde Silver.
 Integrar datos actuales e históricos.
 
 Calcular métricas (crecimiento porcentual de las top 5 criptomonedas).
+
+generar visualización y obtener insights 
 
 Guardar resultados finales en delta_lake/gold/ y generar visualizaciones
 
