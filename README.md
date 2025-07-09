@@ -14,9 +14,8 @@
   - [Capa Bronze](#capa-bronze)  
   - [Capa Silver](#capa-silver)  
   - [Capa Gold](#capa-gold)  
-- [Uso](#uso)  
-- [Funciones Principales](#funciones-principales)  
-- [Tecnologías](#tecnologías)  
+- [Uso](#uso)
+- [conclusión](#conclusión)
 - [Contacto](#contacto)  
 
 ---
