@@ -1,0 +1,24 @@
+# Librerías principales
+pandas==2.2.2
+requests==2.31.0
+deltalake==0.17.1
+numpy==1.26.4
+matplotlib==3.8.4
+
+# Dependencias esenciales para Delta Lake
+pyarrow==15.0.2
+fsspec==2024.3.1
+
+
+# Para AWS
+s3fs==2024.3.1
+boto3==1.34.112
+
+# Para Azure
+adlfs==2024.3.1
+azure-identity==1.16.0
+azure-storage-file-datalake==12.17.1
+
+# Para GCP
+gcsfs==2024.3.1
+google-cloud-storage==2.16.0
