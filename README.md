@@ -1,7 +1,6 @@
 # Coingecko ETL Delta Lake Pipeline
 
-¡Bienvenido a tu proyecto de Data Engineering! Este repositorio contiene un pipeline ETL en Python que extrae datos de la API de CoinGecko, realiza cargas incrementales y estáticas, y los almacena en un **Delta Lake** organizado en las capas **Bronze**, **Silver** y **Gold**.
-n
+¡Bienvenido Este repositorio contiene un pipeline ETL en Python que extrae datos de la API de CoinGecko, realiza cargas incrementales y estáticas, y los almacena en formato parquet en un **Delta Lake** organizado en las capas **Bronze**, **Silver** y **Gold**.
 ---
 
 ## 📋 Tabla de Contenidos
@@ -137,7 +136,12 @@ generar visualización y obtener insights
 Guardar resultados finales en delta_lake/gold/ y generar visualizaciones
 
 
-## Contacto
+## conclusión 
+Al ejecutar el codigo tendras datos de diferentes endpoints de coingecko procesados y almacenados en formato delta lake en distintas capas;
+Bronce: contiene los datos crudos en formato parquet extraidos de distintos edpoint de la API coingecko.
+Silver: en esta capa los datos crudos se normalizan y se procesan dandoles una estuctura mas adecuada para el análisis, la visualizacion o para modelos de machine learning
+Gold: se realizan tranformaciones avanzadas combinando dataframes lo cual permite realizar calculos y agregaciones, analizar tendencias históricas y visualizar estas tendencias en distintos graficos.
 
+## Contacto
 Desarrollado por Mateo Ponce.
 Correo: mate.ponce.prog@gmail.com
